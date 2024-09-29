@@ -20,4 +20,4 @@ COPY ./tests-start.sh /app/
 #
 COPY ./app /app/app
 #
-CMD ["fastapi", "run", "app/main.py", "--host", "0.0.0.0", "--port", "80"]
+CMD ["fastapi", "run", "app/main.py", "--host", "0.0.0.0", "--port", "8000"]
